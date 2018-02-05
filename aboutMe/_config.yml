@@ -4,10 +4,12 @@
 
 # Site
 title: Zhuduan's World
-subtitle: also called haifeng.zhu in real
+subtitle: also called Haifeng.Zhu in real
 description: 一曰存诚，二曰能贱
 author: zhuduan
-language:
+language: 
+  -zh-Hans
+  -en
 timezone:
 
 # URL
@@ -34,7 +36,7 @@ titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
@@ -77,7 +79,7 @@ theme: next
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-type: git
-repo: git@github.com:zhuduan/zhuduan.github.io.git
-branch: master
+  type: git
+  repo: git@github.com:zhuduan/zhuduan.github.io.git
+  branch: master
 
