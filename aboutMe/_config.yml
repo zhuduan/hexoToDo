@@ -8,8 +8,8 @@ subtitle: also called Haifeng.Zhu in real
 description: 一曰存诚，二曰能贱
 author: zhuduan
 language: 
-  -zh-Hans
-  -en
+  - zh-Hans
+  - en
 timezone:
 
 # URL
@@ -73,6 +73,11 @@ pagination_dir: page
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/
+Plugins: 
+- hexo-generator-sitemap
+
+
+
 ## Themes: https://hexo.io/themes/
 theme: next
 
